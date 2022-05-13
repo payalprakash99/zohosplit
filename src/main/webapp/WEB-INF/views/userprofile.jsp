@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%
+if(session.getAttribute("emailID")==null){
+	response.sendRedirect("/ZohoSplits");
+
+}
+%>
 	<h1>Successful!</h1>
 </body>
 </html>

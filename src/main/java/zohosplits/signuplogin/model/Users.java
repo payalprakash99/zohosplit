@@ -12,15 +12,17 @@ public class Users {
 		this.userName = userName;
 	}
 	public int getUserID() {
+		System.out.println(this.userID);
 		return userID;
 	}
 	public void setUserID(int userID) {
 		this.userID = userID;
+		System.out.println(this.userID);
 	}
 	public String getEmailID() {
 		return emailID;
 	}
-	public void setEmailID(String emailID) {
+	public  void setEmailID(String emailID) {
 		this.emailID = emailID;
 	}
 	public String getPassword() {
